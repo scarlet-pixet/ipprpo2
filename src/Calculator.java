@@ -1,6 +1,7 @@
 public class Calculator {
     public static void main(String[] args) {
-        int a = 10, b = 5;
-        System.out.println("вычитание: " + (a-b));
+        int a = 10, b = 5, c;
+        c = a + b;
+        System.out.println("сумма: " + c);
     }
 }
